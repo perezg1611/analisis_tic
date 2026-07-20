@@ -40,22 +40,25 @@ orientadas a la toma de decisiones.
 ---
 
 ## 📁 Estructura del proyecto
+
+```text
 analisis_tic/
 │
 ├── README.md
 ├── requirements.txt
 │
 ├── data/
-│ └── processed/ ← CSVs limpios listos para análisis
+│   └── processed/        ← CSVs limpios listos para análisis
 │
 ├── notebooks/
-│ ├── 01_carga_y_limpieza.ipynb
-│ ├── 02_exploracion_y_analisis.ipynb
-│ ├── 03_conclusiones.ipynb
-│ └── 04_consultas_sql.ipynb
+│   ├── 01_carga_y_limpieza.ipynb
+│   ├── 02_exploracion_y_analisis.ipynb
+│   ├── 03_conclusiones.ipynb
+│   └── 04_consultas_sql.ipynb
 │
 └── dashboard/
-└── capturas/ ← Imágenes exportadas del dashboard
+    └── capturas/         ← Imágenes exportadas del dashboard
+```
 
 ---
 
